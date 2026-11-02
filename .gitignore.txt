@@ -1,0 +1,63 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dataset files - keep large raw datasets out of Git
+data/raw/
+data/processed/
+datasets/
+dataset/
+*.mp4
+*.avi
+*.mov
+
+# Training outputs and experiment logs
+runs/
+wandb/
+logs/
+lightning_logs/
+tensorboard/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Model checkpoints and generated weights
+# Remove these ignore rules if model weights are intentionally included
+# in the repository for inference or demonstration.
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+
+# Generated model and preprocessing outputs
+*.pkl
+*.pickle
+*.npy
+*.npz
