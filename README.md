@@ -163,7 +163,7 @@ The final report provides a detailed explanation of the project, including:
 - Experimental comparisons and evaluation metrics.
 - Implementation, testing, discussion and conclusions.
 
-[View the Final Project Report](report/Final Report.pdf)
+[View the Final Project Report](report/FinalReport.pdf)
 
 ## Academic Project
 
